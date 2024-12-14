@@ -32,5 +32,6 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *tree);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 void binary_tree_inorder(const binary_tree_t *, void (*)(int));
+size_t binary_tree_height(const binary_tree_t *);
 
 #endif
