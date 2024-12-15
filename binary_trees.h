@@ -20,6 +20,7 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
+int binary_tree_is_full(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
